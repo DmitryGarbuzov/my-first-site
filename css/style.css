@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+.page__cell {
+    height: 47.065rem;;
+}
+.Slider {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 47.065rem;
+}
+.image {
+    width: 100%;
+    height: 47.065rem;
+    filter: brightness(30%);
+}
+.header {
+    max-width: 75rem;
+    padding: 0.3125rem;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0 0 0.625rem 0.625rem;
+    animation: header-animation 2s;
+}
+@keyframes header-animation {
+    from {
+        top: -3.6875rem;
+    }
+    to {
+        top: 0;
+    }
+}
+.aboutus {
+    position: relative;
+    z-index: 1;
+    padding-top: 4.375rem;
+}
+h1 {
+    max-width: 53.125rem;
+    margin: auto;
+    font-family: 'Century Gothic', sans-serif;
+    color: gainsboro;
+    font-size: 2.25rem;
+}
+h2 {
+    font-family: 'Century Gothic', sans-serif;
+    color: gainsboro;
+    font-size: 1.375rem;
+    margin-bottom: 0;
+}
+.about-doskort {
+    max-width: 75rem;
+    margin: auto;
+    padding-top: 1.875rem;
+}
+.first-block {
+    z-index: 1;
+    position: relative;
+    animation: left-animation 2s;
+}
+.second-block {
+    z-index: 1;
+    position: relative;
+    animation: right-animation 2s;
+}
+@keyframes left-animation {
+    0% {
+        left: -9.375rem;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes right-animation {
+    0% {
+        right: -9.375rem;
+    }
+    100% {
+        right: 0;
+    }
+}
+p {
+    font-family: 'Century Gothic', sans-serif;
+    color: gainsboro;
+    font-size: 1.5rem;
+    margin: 0.625rem;
+}
+.header__logo {
+    width: 3.75rem;
+    border-right: 2px solid #ccc;
+    float: left;
+    margin: 0.3125rem 0.625rem 0.3125rem 0.625rem; 
+}
+.name {
+    text-decoration: none;
+    font-family: 'Century Gothic', sans-serif;
+    padding-left: 0.9375rem;
+    font-size: 2.75rem;
+    color: black;
+}
+.signup {
+    float: right;
+    text-decoration: none;
+    font-family: 'Century Gothic', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 0.625rem;
+    margin-right: 0.625rem;
+}
+.down {
+    z-index: 1;
+    position: relative;
+    margin: auto;
+    margin-top: 3.5rem;
+    width: 12.5rem;
+}
+.arrow {
+    margin-left: 3.4375rem;
+}
+.arrow-animation {
+    z-index: 1;
+    position: relative;
+    margin-top: 0.625rem;
+    animation: bounce 1.3s infinite;  
+}
+@keyframes bounce {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: -2.8125rem;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+.page__dell {
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+}
