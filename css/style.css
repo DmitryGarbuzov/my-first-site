@@ -49,7 +49,7 @@ h1 {
 h2 {
     font-family: 'Century Gothic', sans-serif;
     color: gainsboro;
-    font-size: 1.375rem;
+    font-size: 1.1rem;
     margin-bottom: 0;
 }
 .about-doskort {
@@ -119,9 +119,17 @@ p {
     width: 12.5rem;
 }
 .arrow {
-    margin-left: 3.4375rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.5625rem;
+    margin-top: 0.75rem;
 }
 .arrow-animation {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    margin-left: 3.4375rem;
+    background: rgba(255, 255, 255, 0.3);
     z-index: 1;
     position: relative;
     margin-top: 0.625rem;
