@@ -18,3 +18,9 @@ function slowScroll(id) {
   }, 500);
   return false;
 };
+
+var getPhotoCount = function() {
+  var count = document.getElementsByClassName('photo').length;
+  var el = document.getElementById('pc');
+  el.textContent = count;
+}();
